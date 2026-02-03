@@ -1,5 +1,6 @@
 ﻿namespace SpeedyTurtle
 {
+     // should make this a lib
     internal class ColorHelper
     {
         public static Color FromString(string value)
