@@ -31,7 +31,7 @@
             // 
             // navPanel
             // 
-            navPanel.BackColor = Color.FromArgb(60, 60, 60);
+            navPanel.BackColor = Color.FromArgb(60, 40, 60);
             navPanel.Controls.Add(moreInfoBtn);
             navPanel.Controls.Add(reloadBtn);
             navPanel.Controls.Add(goNextBtn);
@@ -77,7 +77,7 @@
             reloadBtn.Name = "reloadBtn";
             reloadBtn.Size = new Size(26, 26);
             reloadBtn.TabIndex = 3;
-            reloadBtn.UseVisualStyleBackColor = false;
+            reloadBtn.UseVisualStyleBackColor = true;
             reloadBtn.Click += reloadBtn_Click;
             // 
             // goNextBtn
@@ -130,7 +130,7 @@
             // 
             // viewerPanel
             // 
-            viewerPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            viewerPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             viewerPanel.BackColor = Color.Gray;
             viewerPanel.Controls.Add(webViewer);
             viewerPanel.Location = new Point(0, 40);
